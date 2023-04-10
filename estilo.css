@@ -1,0 +1,72 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 375px auto 120px;
+    grid-template-areas:
+     "c"
+    "m"
+    "r";
+
+}
+
+header{
+    grid-area: "c";
+    background-color: #050505;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    grid-area: "m";
+    background-color: #75354F;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.local{
+    width: 100%;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.star{
+    width: 650px;
+    height: 160px;
+    text-align: center;
+    font-family: 'IM FELL DW Pica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 160px;
+    color: #FFFFFF;
+    text-shadow: #050505 11px 5px;
+}
+
+footer{
+    grid-area: "r";
+    background-color: #75354F;
+    width: 100%;
+}
+
+.btn{
+    width: 211px;
+    height: 51px;
+    background-color: #050505;
+    border-radius: 91.5px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 15px;
+    color: #FFFFFF;
+}
