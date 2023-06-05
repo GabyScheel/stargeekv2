@@ -65,11 +65,33 @@ padding: 10px 20px;
  }
  .card{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     width:200px ;
     height: 250px;
+    background-color:white
 
  } 
  .card img{
     width: 100%;
-    height: 100%;
+    height: 80%;
+ }
+
+ main > form >div{
+   font-size: 10px;
+   background-color: blue;
+   border-radius: 20px;
+   padding: 20px;
+   height: 0;
+   text-align: center;
+ }
+
+ main > form> div{
+   background-color: black;
+   color:white ;
+   padding: 10px;
+   width: 180px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
  }

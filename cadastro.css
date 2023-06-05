@@ -51,6 +51,7 @@ form{
     left: 850px;
     top: 653px;
     padding: 10px;
+    color: white;
  }
 
  form >div> input[type="submit"]{
@@ -59,3 +60,4 @@ form{
 
  }
 
+ 

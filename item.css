@@ -36,13 +36,23 @@ form{
     row-gap: 30px;
     padding: 40px;
 }
-form > input{
+form > input[type="nome"]{
     font-size: 3rem;
     border-radius: 10px;
-
 }
+
+form > input[type="descrição do filme"] {
+    font-size: 3rem;
+    border-radius: 10px;
+}
+
 form > input[type="submit"]{
     background-color: black;
     color: white;
     padding: 10px 20px;
+}
+
+form > input[type="file"] {
+    font-size: 20px;    
+    border-radius: 10px;
 }
